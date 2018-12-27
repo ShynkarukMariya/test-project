@@ -3,26 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Table</title>
+    <link rel="stylesheet" href="table.css">
 </head>
 <body>
-<table border="3">
-    <tr>
-        <td>invoice#123456789</td>
+<table>
+    <tr class="row-1">
+        <td colspan="3"><b>invoice#123456789</b></td>
         <td>14 Junuary 2025</td>
     </tr>
     <tr>
-        <td>Payto:
+        <td colspan="2">Payto:
             Acme Billing Co<br>
             123MainSt.<br>
             Cityville,NA12345
         </td>
-        <td>Costomer:<br>
+        <td colspan="2">Costomer:<br>
             JohnSmith<br>
             321 Willow Way<br>
             Southeast Northwesterstershire,MA 54321
         </td>
     </tr>
-    <tr>
+    <tr class="row-2">
         <td><b>Name/Description</b></td>
         <td><b>Qty</b></td>
         <td><b>@</b></td>
@@ -41,16 +42,16 @@
         <td>100.00</td>
     </tr>
     <tr>
-        <td>Subtotal</td>
+        <td colspan="3"><b>Subtotal</b></td>
         <td>110.00</td>
     </tr>
     <tr>
-        <td><b>Tax</b></td>
+        <td colspan="2"><b>Tax</b></td>
         <td>8%</td>
         <td>8.80</td>
     </tr>
     <tr>
-        <td><b>Grand Total</b></td>
+        <td colspan="3"><b>Grand Total</b></td>
         <td>$118.80</td>
     </tr>
 </table>
