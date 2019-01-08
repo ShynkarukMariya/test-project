@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+}
+.top-container {
+    border: 1px solid black;
+    height: 40px;
+    position: relative;
+    font-family: Bahnschrift, sans-serif;
+    font-size: 25px;
+    color: black;
+    background-color: lightgray;
+}
+
+.list-item:not(.sub) {
+    list-style-type: none;
+    display: inline-block;
+    width: 60px;
+}
+
+.list-item, .sub {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.top-container ul {
+    display: inline;
+}
+
+.icon-group {
+    float: right;
+    padding: 10px;
+}
+
+.sub-menu {
+    position: absolute;
+    background-color: #C4FFEF;
+    width: 80px;
+    top: 40px;
+    display: none;
+    border: 2px solid black;
+
+}
+
+.about:hover .sub-menu {
+    display: block;
+}
+
+
