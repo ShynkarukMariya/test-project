@@ -1,0 +1,52 @@
+
+.top-container {
+    border: 3px solid black;
+    height: 65px;
+    position: relative;
+    font-family: Candara, SansSerif;
+    font-size: 25px;
+    color: black;
+    background-color: #FFC3E2;
+}
+
+span {
+    background: #FFFFFF;
+    position: relative;
+    color: #1B17ED;
+    border: 1px solid black;
+}
+
+.list-item:not(.sub) {
+    list-style-type: none;
+    display: inline-block;
+    width: 60px;
+}
+
+.list-item, .sub {
+    list-style-type: none;
+    padding: 30px;
+}
+
+.sub-menu {
+    position: absolute;
+    background-color: #5AE912;
+    width: 110px;
+    top: 65px;
+    display: none;
+    border: 2px solid black;
+}
+
+.top-container ul {
+    display: inline;
+}
+
+.about:hover .sub-menu {
+    display: block;
+}
+
+.icon-group {
+    float: right;
+
+
+}
+
