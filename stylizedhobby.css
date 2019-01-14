@@ -55,41 +55,39 @@ span {
 
 /*photo*/
 .photo-container {
-    background: lightgray;
-    width: 100%;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-}
 
-.photo {
-    background: #ffbad0;
-    flex-grow: 1;
-}
-
-.photo:hover {
-    flex-grow: 2;
-    margin: 20px;
 }
 
 .photo-img {
+    flex-grow: 1;
     margin: 20px;
-    width: 150px;
-    height: 100px;
+    /*width: 100px;*/
+    height: 200px;
+}
+
+.photo-img:hover {
+    flex-grow: 3;
+    margin: 20px;
+    /*width: 100px;*/
+    height: 200px;
 }
 
 /*    footer     */
-.container {
+footer {
     background: hotpink;
-}
-
-.footer-row {
     padding: 20px 0;
-}
-
-.footer-col {
     text-align: center;
+    margin-top: 100%; /*Отступ футера, см. ниже*/
 }
 
-
+html, body {
+    background: lightgray;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
