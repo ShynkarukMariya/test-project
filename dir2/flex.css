@@ -1,16 +1,23 @@
-#container {
-    width: 100%;
+.main-container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
+
 }
 
-.color-bar {
-    width: 120px;
-    /*height: 250px;*/
-    background-color: #32ed1b;
-    margin: 20px;
-    text-align: center;
-    border: 1px solid black;
+.aside-container {
+    width: 30%;
+}
+
+.main-text {
+    background-color: red;
+    height: 200px;
+}
+
+@media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+
+
+    .menu-container, .menu-item {
+        display: block;
+        font-size: 30px;
+
+    }
 }

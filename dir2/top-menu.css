@@ -1,0 +1,50 @@
+.top-container {
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+.show {
+    display: none;
+}
+.top-container .menu-item-container .menu-item {
+    display: inline-block;
+}
+
+@media screen and (max-width: 600px){
+    .top-container .menu-item-container .menu-item {
+        display: block;
+    }
+    .menu-item-container {
+        display: none;
+    }
+    .show {
+        display: inline;
+    }
+    .show:hover~.menu-item-container {
+        display: block;
+    }
+}
+
+.menu-item-container {
+    height: 200px;
+    background-color: green;
+    position: absolute;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    margin: 10px;
+}
+
+.flex-item:hover {
+    transform: scale(1.1);
+    transition: transform 1s;
+    transition: transform 1s;
+}

@@ -91,3 +91,22 @@ html, body {
     padding: 0;
     height: 100%;
 }
+
+/*картинки збільшуються*/
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    margin: 20px;
+}
+
+.flex-item:hover {
+    transform: scale(1.1);
+    transition: transform 1s;
+    transition: transform 1s;
+}
